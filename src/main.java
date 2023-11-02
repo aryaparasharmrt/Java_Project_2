@@ -10,4 +10,12 @@ public static void main(Strings []args) {
 
   int result = num1 + num2;
   System.out.print(result);
+
+//Program to find an element from array
+public static int addArray(int[] array, int n) {
+    int sum = 0;
+    for(int i = 0; i < array.length; i++) {
+        sum += array[i];
+    }
+  return sum;
 } 
