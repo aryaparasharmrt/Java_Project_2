@@ -13,6 +13,10 @@ public static void main(Strings []args) {
 }  
 
 //Program to find an element from array
-public static void mergeSort(int[] array, int n) {
-}
-  
+public static int addArray(int[] array, int n) {
+    int sum = 0;
+    for(int i = 0; i < array.length; i++) {
+        sum += array[i];
+    }
+  return sum;
+} 
