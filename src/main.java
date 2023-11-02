@@ -10,9 +10,4 @@ public static void main(Strings []args) {
 
   int result = num1 + num2;
   System.out.print(result);
-}  
-
-//Program to find an element from array
-public static void mergeSort(int[] array, int n) {
-}
-  
+} 
