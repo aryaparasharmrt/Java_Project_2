@@ -19,3 +19,25 @@ public static int addArray(int[] array, int n) {
     }
   return sum;
 } 
+
+// Program to check if number is negative, positive or zero
+public static void checkNumber(int num) {
+
+  if(num > 0) {
+      System.out.print("Number is positive");
+} else if (num < 0) {
+      System.out.print("Number is negative");
+}  else {
+      System.out.print("Number is Zero");
+}
+}
+
+// Program to check if number is odd or even 
+public static void oddOrEven (int num) {
+
+  if(num % 2 == 0) {
+     System.out.print("Number is Even");
+  } else {
+     System.out.print("Number is Odd");
+  }
+}
