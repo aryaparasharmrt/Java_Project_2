@@ -31,6 +31,8 @@ public static void checkNumber(int num) {
       System.out.print("Number is Zero");
 }
 }
+//Comment Required
+
 
 // Program to check if number is odd or even 
 public static void oddOrEven (int num) {
